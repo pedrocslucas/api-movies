@@ -1,3 +1,10 @@
+:root {
+    --cor-padrao: #2f2f2f;
+    --cor-forte: #1a1a1a;
+    --cor-contraste: #c42d2b;
+    --cor-contraste-forte: #83201e;
+}
+
 .container .title {
     color: white;
     font-size: 2.5em;
@@ -6,7 +13,7 @@
 }
 
 .title .query-text {
-    color: #f7d354;
+    color: var(--cor-contraste);
 }
 
 .movies-container {
@@ -38,14 +45,14 @@
 }
 
 .movies-container div svg {
-    color: #f7d354;
+    color: yellow;
 }
 
 .movies-container div a {
-    background-color: #f7d354;
-    border: 2px solid #f7d354;
+    background-color: var(--cor-contraste);
+    border: 2px solid var(--cor-contraste);
     border-radius: 4px;
-    color: black;
+    color: white;
     padding: 1em .5em;
     align-items: center;
     transition: .4s;
@@ -55,5 +62,5 @@
 
 .movies-container div a:hover {
     background-color: transparent;
-    color: #f7d354;
+    color: var(--cor-contraste);
 }

@@ -1,3 +1,10 @@
+:root {
+    --cor-padrao: #2f2f2f;
+    --cor-forte: #1a1a1a;
+    --cor-contraste: #c42d2b;
+    --cor-contraste-forte: #83201e;
+}
+
 .movie-page {
     color: white;
     display: flex;
@@ -8,7 +15,11 @@
 
 .movie-page svg {
     font-size: 1.5em;
-    color: #f7b354;
+    color: var(--cor-contraste);
+}
+
+.movie-page .star {
+    color: yellow;
 }
 
 .movie-page .movie-card {

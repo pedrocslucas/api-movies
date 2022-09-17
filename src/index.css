@@ -1,21 +1,28 @@
+:root {
+    --cor-padrao: #2f2f2f;
+    --cor-forte: #1a1a1a;
+    --cor-contraste: #cf1a17;
+    --cor-contraste-forte: #aa1613;
+}
+
 * {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
 body {
-    background-color: black;
+    background-color: var(--cor-forte);
     color: white;
 }
 
 a {
     text-decoration: none;
-    color: #f7d354;
+    color: var(--cor-contraste);
     transition: .5s;
 }
 
 a:hover {
-    color: #b8930c;
+    color: var(--cor-contraste-forte);
 }
